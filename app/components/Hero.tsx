@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="max-w-4xl text-center px-4 sm:px-6 md:px-8">
         {/* Title Section */}
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight">
-          Hey, I'm <span className="text-gray-300">Aman Singh</span>
+            Hey, I&apos;m <span className="text-gray-300">Aman Singh</span>
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl text-gray-400 mt-4">
           A Full Stack Developer passionate about building scalable web solutions with clean code and intuitive design.
