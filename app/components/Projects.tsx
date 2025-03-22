@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import { SiNextdotjs, SiFlutter, SiFirebase, SiSpringboot, SiTypescript, SiTailwindcss, SiNodedotjs, SiExpress, SiReact, SiMongodb } from "react-icons/si";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { SiNextdotjs, SiFlutter, SiFirebase, SiTypescript, SiTailwindcss, SiNodedotjs, SiExpress, SiReact, SiMongodb } from "react-icons/si";
 import Tilt from 'react-parallax-tilt';
 
 // Project Data
