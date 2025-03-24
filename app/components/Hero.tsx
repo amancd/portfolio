@@ -3,24 +3,24 @@ import React from "react";
 import { FaAngleDoubleDown } from "react-icons/fa";
 
 export default function Hero() {
-     const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-        e.preventDefault();
-        const targetId = e.currentTarget.getAttribute('href')?.substring(1);
-        const targetElement = document.getElementById(targetId || '');
-        if (targetElement) {
-          window.scrollTo({
-            top: targetElement.offsetTop,
-            behavior: 'smooth',
-          });
-        }
-      };
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute('href')?.substring(1);
+    const targetElement = document.getElementById(targetId || '');
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: 'smooth',
+      });
+    }
+  };
 
   return (
     <div className="w-full h-screen bg-gradient-to-br from-black to-gray-900 text-white flex items-center justify-center relative overflow-hidden">
-      <div className="max-w-4xl text-center px-4 sm:px-6 md:px-8">
+      <div className="max-w-4xl text-center px-4 sm:px-6 md:px-8 relative z-10">
         {/* Title Section */}
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight">
-            Hey, I&apos;m <span className="text-gray-300">Aman Singh</span>
+          Hey, I&apos;m <span className="text-gray-300">Aman Singh</span>
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl text-gray-400 mt-4">
           A Full Stack Developer passionate about building scalable web solutions with clean code and intuitive design.
@@ -31,7 +31,7 @@ export default function Hero() {
           <a href="#projects" onClick={handleSmoothScroll} className="px-8 py-2 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all duration-300 shadow-lg hover:shadow-xl">
             View Projects
           </a>
-          <a href="#contact" className="px-8 py-2 border-2 border-white text-white rounded-full font-semibold hover:bg-white hover:text-black transition-all duration-300 shadow-lg hover:shadow-xl">
+          <a href="https://linkedin.com/in/aman-singh-dev" className="px-8 py-2 border-2 border-white text-white rounded-full font-semibold hover:bg-white hover:text-black transition-all duration-300 shadow-lg hover:shadow-xl">
             Contact Me
           </a>
         </div>
@@ -45,7 +45,7 @@ export default function Hero() {
       <canvas id="particle-canvas" className="absolute inset-0 w-full h-full" />
 
       {/* Double Arrow Animation */}
-      <div className="absolute bottom-12 flex flex-col items-center">
+      <div className="absolute bottom-12 flex flex-col items-center z-10">
         <FaAngleDoubleDown className="text-gray-400 text-4xl animate-bounce" />
       </div>
 
