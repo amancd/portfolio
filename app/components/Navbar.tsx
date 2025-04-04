@@ -21,7 +21,7 @@ export default function Navbar() {
         {/* Navigation Links */}
         <a href="#about" onClick={handleSmoothScroll} className="hover:text-gray-400 transition">About</a>
         <a href="#skills" onClick={handleSmoothScroll} className="hover:text-gray-400 transition">Skills</a>
-        <a href="#projects" onClick={handleSmoothScroll} className="hover:text-gray-400 transition">Projects</a>
+        <a href="#experience" onClick={handleSmoothScroll} className="hover:text-gray-400 transition">Experience</a>
 
         {/* Icons */}
         <a href="https://github.com/amancd" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition">

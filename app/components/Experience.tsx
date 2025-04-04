@@ -6,7 +6,7 @@ const experiences = [
     company: "EffiGo Global Pvt Ltd",
     location: "Bangalore, India",
     role: "Product Engineering Intern",
-    duration: "Feb 2025 – Present",
+    duration: "Jan 2025 - Mar 2025",
     details: [
       "Developed scalable backend services using Spring Boot, improving procurement software performance by 40%.",
       "Integrated microservices using REST APIs, enhancing inter-module communication and system reliability.",
@@ -28,7 +28,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="w-full min-h-screen bg-black text-white flex flex-col justify-center items-center py-20 px-4 md:px-8">
+    <section className="w-full min-h-150 bg-black text-white flex flex-col justify-center items-center py-20 px-4 md:px-8">
       <h2 className="text-4xl font-bold mb-16">Experience</h2>
       <div className="w-full max-w-4xl">
         {experiences.map((exp, index) => (
