@@ -28,7 +28,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="w-full min-h-150 bg-black text-white flex flex-col justify-center items-center py-20 px-4 md:px-8">
+    <section id="experience" className="w-full min-h-150 bg-black text-white flex flex-col justify-center items-center py-20 px-4 md:px-8">
       <h2 className="text-4xl font-bold mb-16">Experience</h2>
       <div className="w-full max-w-4xl">
         {experiences.map((exp, index) => (
